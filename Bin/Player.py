@@ -20,14 +20,19 @@ class Player:
     def add_item(self, key, item):
         self.players_list[self.ID][key].append(item)
 
-    def write(self):
+    def write(self, player_list):
+        self.players_list[0] = player_list[0]
+        self.players_list[1] = player_list[1]
         json_write(_dict_path, self.players_list)
+    
+    def add_points(self, points):
+        self.players_list[self.ID]['Points'] += points
+
 
 class PointsClosed:
     
     def __init__(self):
-        self.points = self.count_closed()
-        self.write()
+        pass
         
     def count_closed(self):
         
@@ -38,10 +43,10 @@ class PointsClosed:
             player_dict = json_read(_dict_path)[ID]
             
             for city in player_dict['Cities']:
-                player_points += self.__count_cities(city)
+                player_points += self._count_cities(city)
             
             for road in player_dict['Roads']:
-                player_points += self.__count_roads(road)
+                player_points += self._count_roads(road)
                 
             for church in player_dict['Churches']:
                 player_points += 9
@@ -50,14 +55,15 @@ class PointsClosed:
         return players_points
 
     def write(self):
+        self.points = self.count_closed()
+        
         players_dict = json_read(_dict_path)
         for ID in range(2):
             players_dict[ID]['Points'] = self.points[ID]
         json_write(_dict_path, players_dict)
         return
-            
-    
-    def __count_cities(self, city):
+                
+    def _count_cities(self, city):
         
         points = 0
         city_tiles = len(city['indices'])
@@ -69,7 +75,7 @@ class PointsClosed:
             points *= 2
         return points
     
-    def __count_roads(self, road):
+    def _count_roads(self, road):
         
         points = 0
         road_tiles = len(road['indices'])
@@ -80,3 +86,63 @@ class PointsClosed:
     def __count_churches(self, church):
         
         return 9
+    
+    
+class PointsUnclosed(PointsClosed):
+    
+    def __init__(self, board):
+        self.board = board
+        self.x = np.shape(board)[0]
+        self.y = np.shape(board)[1]
+        self.roads = json_read('Data/Elements/Roads.json')
+        self.cities = json_read('Data/Elements/Cities.json')
+        self.churches = json_read('Data/Elements/Churches.json')
+        self.fields = json_read('Data/Elements/Fields.json')
+        
+        self.player0 = Player(0)
+        self.player1 = Player(1)
+        
+        self.count_roads_and_cities()
+        self.count_churches()
+        
+        self.player0.write([self.player0.players_list[0], self.player1.players_list[1]])
+    
+    def count_roads_and_cities(self):
+        
+        count_funcs = [self._count_roads, self._count_cities]
+        for ind, item in enumerate([self.roads, self.cities]):
+            for object_ in item:
+                players = object_['players']
+                points = count_funcs[ind](object_)
+                
+                if len(players) != 0:
+                    count_0, count_1 = players.count(0), players.count(1)
+                    
+                    if count_0 == count_1:
+                        self.player0.add_points(points)
+                        self.player1.add_points(points)
+                    
+                    if count_0 > count_1:
+                        self.player0.add_points(points)
+                    
+                    if count_0 < count_1:
+                        self.player1.add_points(points)
+    
+    def count_churches(self):
+        
+        for ind, church in enumerate(self.churches):
+            
+            if len(church['players']) == 1:
+                player = church['players'][0]
+                inds = church['indices']
+                counter = 0
+                for i in range(inds[0] - 1, inds[0] + 2):
+                    for j in range(inds[1] - 1, inds[1] + 2):
+                        if type(self.board[i, j]) == dict:
+                            counter += 1
+                if player == 0:
+                    self.player0.add_points(counter)
+                else:
+                    self.player1.add_points(counter)
+            
+                
