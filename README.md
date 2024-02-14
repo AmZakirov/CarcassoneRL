@@ -1,4 +1,3 @@
 #
-1) Очки учитываются пока только за закрытые объекты
-2) Поля пока не учитываются
-3) pip install InnoFileManager
+1) Поля пока не учитываются
+2) pip install InnoFileManager
