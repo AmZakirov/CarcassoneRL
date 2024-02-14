@@ -1,6 +1,6 @@
 from Bin.Board import Board
 from Bin.Place import PlaceTile
-from Bin.Player import PointsClosed
+from Bin.Player import PointsClosed, PointsUnclosed
 
 from Visualize.Visualizer import plot_board
 from FileActions import json_read, json_write               # pip install InnoFileManager
@@ -61,7 +61,8 @@ def main():
             board.close_action(action_freedom, player_ID=player_id)   
     
     # Подсчёт очков
-    PointsClosed()           
+    PointsClosed()     
+    PointsUnclosed(board.board)
     # Сохранение картинки 
     # plot_board(board.board)      
         
