@@ -37,7 +37,7 @@ class Churches:
                 if len(players_in_church) != 0:
                     player = Player(players_in_church[0])
                     player.add_item("Churches", church)
-                    player.write()
+                    player.write(player.players_list)
                 self.churches[ind]['is_open'] = False
         
         json_write('Data/Elements/Churches.json', self.churches)
