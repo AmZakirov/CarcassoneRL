@@ -1,0 +1,159 @@
+[
+    {
+        "edges": {"left": "G", "up": "G", "right": "G", "down": "G"},
+        "counts": 4,
+        "church": true,
+        "ID": 1,
+        "image_path": "Visualize/Tiles/1.png"
+    },
+    {
+        "edges": {"left": "G", "up": "G", "right": "G", "down": "R"},
+        "counts": 2,
+        "church": true,
+        "ID": 2,
+        "image_path": "Visualize/Tiles/2.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "C", "down": "C"},
+        "counts": 1,
+        "shield": true,
+        "ID": 3,
+        "image_path": "Visualize/Tiles/3.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "C", "down": "G"},
+        "counts": 3,
+        "ID": 4,
+        "image_path": "Visualize/Tiles/4.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "C", "down": "G"},
+        "counts": 1,
+        "shield": true,
+        "ID": 5,
+        "image_path": "Visualize/Tiles/5.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "C", "down": "R"},
+        "counts": 1,
+        "ID": 6,
+        "image_path": "Visualize/Tiles/6.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "C", "down": "R"},
+        "counts": 2,
+        "shield": true,
+        "ID": 7,
+        "image_path": "Visualize/Tiles/7.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "G", "down": "G"},
+        "counts": 3,
+        "ID": 8,
+        "image_path": "Visualize/Tiles/8.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "G", "down": "G"},
+        "counts": 2,
+        "shield": true,
+        "ID": 9,
+        "image_path": "Visualize/Tiles/9.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "R", "down": "R"},
+        "counts": 3,
+        "ID": 10,
+        "image_path": "Visualize/Tiles/10.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "R", "down": "R"},
+        "counts": 2,
+        "shield": true,
+        "ID": 11,
+        "image_path": "Visualize/Tiles/11.png"
+    },
+    {
+        "edges": {"left": "C", "up": "G", "right": "C", "down": "G"},
+        "counts": 1,
+        "ID": 12,
+        "image_path": "Visualize/Tiles/12.png"
+    },
+    {
+        "edges": {"left": "C", "up": "G", "right": "C", "down": "G"},
+        "counts": 2,
+        "shield": true,
+        "ID": 13,
+        "image_path": "Visualize/Tiles/13.png"
+    },
+    {
+        "edges": {"left": "C", "up": "C", "right": "G", "down": "G"},
+        "counts": 2,
+        "separate": true,
+        "ID": 14,
+        "image_path": "Visualize/Tiles/14.png"
+    },
+    {
+        "edges": {"left": "G", "up": "C", "right": "G", "down": "C"},
+        "counts": 3,
+        "separate": true,
+        "ID": 15,
+        "image_path": "Visualize/Tiles/15.png"
+    },
+    {
+        "edges": {"left": "G", "up": "C", "right": "G", "down": "G"},
+        "counts": 5,
+        "ID": 16,
+        "image_path": "Visualize/Tiles/16.png"
+    },
+    {
+        "edges": {"left": "R", "up": "C", "right": "G", "down": "R"},
+        "counts": 3,
+        "ID": 17,
+        "image_path": "Visualize/Tiles/17.png"
+    },
+    {
+        "edges": {"left": "G", "up": "C", "right": "R", "down": "R"},
+        "counts": 3,
+        "ID": 18,
+        "image_path": "Visualize/Tiles/18.png"
+    },
+    {
+        "edges": {"left": "R", "up": "C", "right": "R", "down": "R"},
+        "counts": 3,
+        "brake": true,
+        "ID": 19,
+        "image_path": "Visualize/Tiles/19.png"
+    },
+    {
+        "edges": {"left": "R", "up": "C", "right": "R", "down": "G"},
+        "counts": 3,
+        "ID": 20,
+        "image_path": "Visualize/Tiles/20.png"
+    },
+    {
+        "edges": {"left": "R", "up": "G", "right": "R", "down": "G"},
+        "counts": 8,
+        "ID": 21,
+        "image_path": "Visualize/Tiles/21.png"
+    },
+    {
+        "edges": {"left": "R", "up": "G", "right": "G", "down": "R"},
+        "counts": 9,
+        "ID": 22,
+        "image_path": "Visualize/Tiles/22.png"
+    },
+    {
+        "edges": {"left": "R", "up": "G", "right": "R", "down": "R"},
+        "counts": 4,
+        "brake": true,
+        "ID": 23,
+        "image_path": "Visualize/Tiles/23.png"
+    },
+    {
+        "edges": {"left": "R", "up": "R", "right": "R", "down": "R"},
+        "counts": 1,
+        "brake": true,
+        "ID": 24,
+        "image_path": "Visualize/Tiles/24.png"
+    }
+]

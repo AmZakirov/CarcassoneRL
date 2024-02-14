@@ -1,0 +1,73 @@
+[
+    {
+        "ID": 0,
+        "Meeples": 0,
+        "Points": 0,
+        "Roads": [],
+        "Churches": [],
+        "Cities": []
+    },
+    {
+        "ID": 1,
+        "Meeples": 0,
+        "Points": 12,
+        "Roads": [
+            {
+                "ID": 21,
+                "indices": [
+                    [
+                        50,
+                        48
+                    ],
+                    [
+                        50,
+                        47
+                    ],
+                    [
+                        50,
+                        49
+                    ],
+                    [
+                        50,
+                        50
+                    ]
+                ],
+                "is_open": false,
+                "additional_points": 2,
+                "players": [
+                    1
+                ],
+                "type": "road"
+            },
+            {
+                "ID": 8,
+                "indices": [
+                    [
+                        47,
+                        49
+                    ],
+                    [
+                        47,
+                        48
+                    ],
+                    [
+                        48,
+                        48
+                    ],
+                    [
+                        49,
+                        48
+                    ]
+                ],
+                "is_open": false,
+                "additional_points": 2,
+                "players": [
+                    1
+                ],
+                "type": "road"
+            }
+        ],
+        "Churches": [],
+        "Cities": []
+    }
+]
