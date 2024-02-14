@@ -63,7 +63,7 @@ def main():
     # Подсчёт очков
     PointsClosed()           
     # Сохранение картинки 
-    plot_board(board.board)      
+    # plot_board(board.board)      
         
     # Очки за завершённые объекты:
     points_0 = json_read('Data/Players.json')[0]['Points']
