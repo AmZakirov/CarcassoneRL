@@ -113,7 +113,7 @@ class Board(\
                 if items[ind]['ID'] == action['ID']:
                     player = Player(player_ID)
                     player.put_meeple()
-                    player.write()
+                    player.write(player.players_list)
                     items[ind]['players'].append(player_ID)
                     json_write(filename, items)
                     break
