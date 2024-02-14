@@ -173,8 +173,7 @@ class Roads(Road_options):
                     if count_1 != 0:
                         player1.return_meeple(count_1)
                     
-                    player0.write()
-                    player1.write()
+                    player0.write([player0.players_list[0], player1.players_list[1]])
                         
                         
         json_write('Data/Elements/Roads.json', self.roads)
