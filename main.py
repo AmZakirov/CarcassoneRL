@@ -1,6 +1,6 @@
 from Bin.Board import Board
 from Bin.Place import PlaceTile
-from Bin.Player import PointsClosed, PointsUnclosed
+from Bin.Player import PointsClosed, PointsUnclosed, Rewards
 
 from Visualize.Visualizer import plot_board
 from FileActions import json_read, json_write               # pip install InnoFileManager
@@ -14,6 +14,7 @@ tiles = json_read('Data/Tiles_initial.json')
 json_write('Data/Elements/Roads.json', [])
 json_write('Data/Elements/Churches.json', [])
 json_write('Data/Elements/Cities.json', [])
+json_write('Data/Elements/Fields.json', [])
 json_write('Data/Players.json', [{'ID': ID, 'Meeples': 8, 'Points': 0, 'Roads': [], 'Churches': [], 'Cities': []} for ID in range(2)])
 
 def main():
@@ -51,6 +52,7 @@ def main():
             
             # Действия: 1- для пропуска, остальное-это объекты на поле, куда можно положить тайл
             actions = board.add_action() + [1]
+            rewards = Rewards(actions, board.board).reward_list
             
             if player_id == 0:
                 action_freedom = choice(actions)  #TODO: DECISION MAKING
@@ -58,13 +60,15 @@ def main():
                 action_freedom = choice(actions)  #RANDOM
             
             # Закрытие объектов на поле, дороги с 2-мя концами, города закрытые со всех сторон, закрытые церкви
-            board.close_action(action_freedom, player_ID=player_id)   
-    
-    # Подсчёт очков
-    PointsClosed()     
-    PointsUnclosed(board.board)
+            board.close_action(action=action_freedom, player_ID=player_id)   
     # Сохранение картинки 
-    # plot_board(board.board)      
+    plot_board(board.board)  
+            
+    # Подсчёт очков
+    PointsClosed().write()  
+    PointsUnclosed(board.board)
+    
+        
         
     # Очки за завершённые объекты:
     points_0 = json_read('Data/Players.json')[0]['Points']
