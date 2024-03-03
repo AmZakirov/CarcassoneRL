@@ -1,0 +1,659 @@
+[
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 2,
+            "indices": [
+                [
+                    51,
+                    51
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 0,
+            "additional_points": 0
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 1,
+            "indices": [
+                [
+                    50,
+                    50
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 1,
+            "players": [],
+            "type": "road"
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 5,
+            "indices": [
+                [
+                    48,
+                    49
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 1,
+            "additional_points": 0
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 6,
+            "indices": [
+                [
+                    50,
+                    48
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 1,
+            "additional_points": 1
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 7,
+            "indices": [
+                [
+                    53,
+                    48
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 0,
+            "additional_points": 0
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 7,
+            "indices": [
+                [
+                    48,
+                    51
+                ],
+                [
+                    48,
+                    50
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 1,
+            "players": [],
+            "type": "road"
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 8,
+            "indices": [
+                [
+                    50,
+                    47
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 0,
+            "players": [],
+            "type": "road"
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 9,
+            "indices": [
+                [
+                    47,
+                    51
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 1,
+            "players": [],
+            "type": "road"
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 2,
+            "indices": [
+                50,
+                52
+            ],
+            "players": [],
+            "is_open": true,
+            "type": "church"
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 10,
+            "indices": [
+                [
+                    50,
+                    53
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 0,
+            "players": [],
+            "type": "road"
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 3,
+            "indices": [
+                47,
+                48
+            ],
+            "players": [],
+            "is_open": true,
+            "type": "church"
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 4,
+            "indices": [
+                54,
+                50
+            ],
+            "players": [],
+            "is_open": true,
+            "type": "church"
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 17,
+            "indices": [
+                [
+                    55,
+                    50
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 1,
+            "additional_points": 0
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 19,
+            "indices": [
+                [
+                    54,
+                    49
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 0,
+            "additional_points": 0
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 16,
+            "indices": [
+                [
+                    53,
+                    47
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 1,
+            "players": [],
+            "type": "road"
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 14,
+            "indices": [
+                [
+                    50,
+                    54
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 1,
+            "players": [],
+            "type": "road"
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 25,
+            "indices": [
+                [
+                    46,
+                    52
+                ],
+                [
+                    46,
+                    51
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 1,
+            "additional_points": 0
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 22,
+            "indices": [
+                [
+                    56,
+                    47
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 0,
+            "players": [],
+            "type": "road"
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 5,
+            "indices": [
+                48,
+                47
+            ],
+            "players": [],
+            "is_open": true,
+            "type": "church"
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 25,
+            "indices": [
+                [
+                    54,
+                    47
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 0,
+            "players": [],
+            "type": "road"
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 1,
+        "plotted": false
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 37,
+            "indices": [
+                [
+                    59,
+                    47
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 0,
+            "additional_points": 0
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    },
+    {
+        "action": {
+            "ID": 38,
+            "indices": [
+                [
+                    58,
+                    48
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 0,
+            "additional_points": 0
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 31,
+            "indices": [
+                [
+                    59,
+                    46
+                ]
+            ],
+            "is_open": true,
+            "additional_points": 0,
+            "players": [],
+            "type": "road"
+        },
+        "player": 0,
+        "plotted": true
+    },
+    {
+        "action": {
+            "ID": 39,
+            "indices": [
+                [
+                    45,
+                    48
+                ],
+                [
+                    46,
+                    47
+                ],
+                [
+                    46,
+                    48
+                ]
+            ],
+            "is_open": true,
+            "players": [],
+            "type": "city",
+            "shield": 1,
+            "additional_points": 0
+        },
+        "player": 1,
+        "plotted": true
+    },
+    {
+        "action": 1,
+        "player": 0,
+        "plotted": false
+    }
+]
