@@ -3,7 +3,7 @@ from Bin.Place import PlaceTile
 from Bin.Player import PointsClosed, PointsUnclosed, Rewards
 
 from Visualize.Visualizer import plot_board
-from FileActions import json_read, json_write               # pip install InnoFileManager
+from FileActions import json_read, json_write, json_append_to               # pip install InnoFileManager
 from random import choice, shuffle
 import copy
 import numpy as np
@@ -15,6 +15,7 @@ json_write('Data/Elements/Roads.json', [])
 json_write('Data/Elements/Churches.json', [])
 json_write('Data/Elements/Cities.json', [])
 json_write('Data/Elements/Fields.json', [])
+json_write('Visualize/meeples.json', [])
 json_write('Data/Players.json', [{'ID': ID, 'Meeples': 8, 'Points': 0, 'Roads': [], 'Churches': [], 'Cities': []} for ID in range(2)])
 
 def main():
@@ -42,10 +43,11 @@ def main():
         for ind, tile_to_put in enumerate(tiles0):
             
             player_id = ind % 2
-            # Получение списка из мест, куда можно положить тайл
+            # Получение списка из мест, куда можно положить тайл:
             placetile = PlaceTile(board.board, tile_to_put)
             availible_places = placetile.availible_places()
             
+            # Перекладываем в конец колоды:
             if len(availible_places) == 0:
                 unputted_tiles.append(tile_to_put)
             
@@ -55,11 +57,11 @@ def main():
                 else:
                     place = choice(availible_places) # RANDOM
                     
-                # Вращение и добавление ограничения в тайл
+                # Вращение и добавление ограничения в тайл:
                 tile_to_put = placetile.change_tile(tile_to_put, *place)
                 board.put_tile(tile_to_put)
                 
-                # Действия: 1- для пропуска, остальное-это объекты на поле, куда можно положить тайл
+                # Действия: 1- для пропуска, остальное-это объекты на поле, куда можно положить тайл:
                 actions = board.add_action() + [1]
                 rewards = Rewards(actions, board.board).reward_list
                 
@@ -67,6 +69,7 @@ def main():
                     action_freedom = choice(actions)  #TODO: DECISION MAKING
                 else:
                     action_freedom = choice(actions)  #RANDOM
+                json_append_to('Visualize/meeples.json', [{'action':action_freedom, 'player': player_id, 'plotted': False}])
                 
                 # Закрытие объектов на поле, дороги с 2-мя концами, города закрытые со всех сторон, закрытые церкви
                 board.close_action(action=action_freedom, player_ID=player_id) 
