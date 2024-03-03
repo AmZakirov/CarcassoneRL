@@ -146,3 +146,40 @@ class PointsUnclosed(PointsClosed):
                     self.player1.add_points(counter)
             
                 
+class Rewards:
+    
+    def __init__(self, actions, board):
+        self.actions = actions
+        self.board = board
+        
+    @property
+    def reward_list(self):
+        rewards = [0] * len(self.actions)
+        
+        for ind in range(len(self.actions)):
+            if type(self.actions[ind]) == int:
+                continue
+            if self.actions[ind]['type'] == 'road':
+                rewards[ind] = self._count_roads(self.actions[ind])
+            elif self.actions[ind]['type'] == 'city':
+                rewards[ind] = self._count_cities(self.actions[ind])
+            elif self.actions[ind]['type'] == 'church':
+                rewards[ind] = self._count_churches(self.actions[ind])
+        return rewards
+    
+    def _count_roads(self, road):
+        return len(road['indices']) + road['additional_points']
+    
+    def _count_cities(self, city):
+        return len(city['indices']) + city['additional_points'] + city['shield'] * 2
+    
+    def _count_churches(self, church):
+        
+        ind_pair = church['indices']            
+        counter = 0
+        for i in range(ind_pair[0] - 1, ind_pair[0] + 2):
+            for j in range(ind_pair[1] - 1, ind_pair[1] + 2):
+                if type(self.board[i, j]) == dict:
+                    counter += 1
+        return counter
+    
