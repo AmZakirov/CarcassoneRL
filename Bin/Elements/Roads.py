@@ -4,10 +4,11 @@ from Bin.Player import Player
 
 class Road_options:
     
-    def __init__(self, board):
+    def __init__(self, board, first_call=True):
         self.board = board
-        self.roads = json_read('Data/Elements/Roads.json')
-        self.last_road_ID = max([item['ID'] for item in self.roads]) if len(self.roads) > 0 else 0
+        if first_call:
+            self.roads = json_read('Data/Elements/Roads.json')
+            self.last_road_ID = max([item['ID'] for item in self.roads]) if len(self.roads) > 0 else 0
 
     def _add_road(self, is_open, inds):
         self.last_road_ID += 1
@@ -94,7 +95,7 @@ class Roads(Road_options):
         elif self.unconstrained_counter > 2:
             self.crossroads()
         
-        json_write('Data/Elements/Roads.json', self.roads)
+        # json_write('Data/Elements/Roads.json', self.roads)
                 
             
     def single_edge(self):
@@ -145,7 +146,7 @@ class Roads(Road_options):
                         self.roads[ind]['additional_points'] += 1
             
     def close_roads(self):
-        Road_options.__init__(self, self.board)
+        Road_options.__init__(self, self.board, first_call=False)
         for ind, road in enumerate(self.roads):
             if road['additional_points'] == 2 and self.roads[ind]['is_open'] == True:
                 self.roads[ind]['is_open'] = False
