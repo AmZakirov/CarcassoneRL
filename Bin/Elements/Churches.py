@@ -19,10 +19,10 @@ class Churches:
     def _place_church(self):
         if self.tile.get('church') == True:
             self.churches.append(self._add_church(self.tile['coord']))
-        # json_write('Data/Elements/Churches.json', self.churches)
+        json_write('Data/Elements/Churches.json', self.churches)
 
     def close_churches(self):
-        # self.churches = json_read('Data/Elements/Churches.json')
+        self.churches = json_read('Data/Elements/Churches.json')
         for ind, church in enumerate(self.churches):
             
             inds = church['indices']
