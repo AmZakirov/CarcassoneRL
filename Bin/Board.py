@@ -5,6 +5,7 @@ from FileActions import *
 from Bin.Elements.Roads import *
 from Bin.Elements.Churches import Churches
 from Bin.Elements.Cities import Cities
+from Bin.Elements.Fields import Fields
 from Bin.Player import Player
 
 class Tile_actions:
@@ -62,14 +63,14 @@ class Board(\
     
     def __init__(self):
         ''' При инициализации выкладываем на доску старотовый тайл '''
-        self.board = np.zeros((100, 100), dtype=object)
+        self.board = np.zeros((70, 70), dtype=object)
         self.x = np.shape(self.board)[0]
         self.y = np.shape(self.board)[1]
         
         start_tile = json_read('Data/Tiles_initial.json')[19]
-        self.board[50, 50] = self.tile_properties(start_tile, GameID=0, coord=[50, 50]) 
-        Roads(self.board, self.board[50, 50]).close_roads()
-        Cities(self.board, self.board[50, 50]).close_cities()
+        self.board[35, 35] = self.tile_properties(start_tile, GameID=0, coord=[35, 35]) 
+        Roads(self.board, self.board[35, 35]).close_roads()
+        Cities(self.board, self.board[35, 35]).close_cities()
         
         self.__update_board(to_write=True)
         
