@@ -4,11 +4,10 @@ from Bin.Player import Player
 
 class City_options:
     
-    def __init__(self, board, first_call=True):
+    def __init__(self, board):
         self.board = board
-        if first_call:
-            self.cities = json_read('Data/Elements/Cities.json')
-            self.last_city_ID = max([item['ID'] for item in self.cities]) if len(self.cities) > 0 else 0
+        self.cities = json_read('Data/Elements/Cities.json')
+        self.last_city_ID = max([item['ID'] for item in self.cities]) if len(self.cities) > 0 else 0
 
     def _add_city(self, is_open, inds, with_shield):
         self.last_city_ID += 1
@@ -93,7 +92,7 @@ class Cities(City_options):
         if self.tile.get('separate') == True:
             self.add_separatist()        
         
-        # json_write('Data/Elemensts/Cities.json', self.cities)  
+        json_write('Data/Elements/Cities.json', self.cities)        
                         
     def no_separatists(self):
         ''' Операции с тайлами без разделения '''
@@ -141,7 +140,7 @@ class Cities(City_options):
             
     def close_cities(self):
         
-        City_options.__init__(self, self.board, first_call=False)
+        City_options.__init__(self, self.board)
         for ind, city in enumerate(self.cities):
             constrained_counter, unconstrained_counter = 0, 0
             
