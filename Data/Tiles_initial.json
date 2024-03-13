@@ -1,6 +1,8 @@
 [
     {
         "edges": {"left": "G", "up": "G", "right": "G", "down": "G"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [0, 0], "up": [0, 0], "right": [0, 0], "down": [0, 0]},
         "counts": 4,
         "church": true,
         "ID": 1,
@@ -8,6 +10,8 @@
     },
     {
         "edges": {"left": "G", "up": "G", "right": "G", "down": "R"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [0, 0], "up": [0, 0], "right": [0, 0], "down": [0, 0]},
         "counts": 2,
         "church": true,
         "ID": 2,
@@ -15,6 +19,8 @@
     },
     {
         "edges": {"left": "C", "up": "C", "right": "C", "down": "C"},
+        "fields_counts": 0,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [null, null], "down": [null, null]},
         "counts": 1,
         "shield": true,
         "ID": 3,
@@ -22,12 +28,16 @@
     },
     {
         "edges": {"left": "C", "up": "C", "right": "C", "down": "G"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [null, null], "down": [0, 0]},
         "counts": 3,
         "ID": 4,
         "image_path": "Visualize/Tiles/4.png"
     },
     {
         "edges": {"left": "C", "up": "C", "right": "C", "down": "G"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [null, null], "down": [0, 0]},
         "counts": 1,
         "shield": true,
         "ID": 5,
@@ -35,12 +45,16 @@
     },
     {
         "edges": {"left": "C", "up": "C", "right": "C", "down": "R"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [null, null], "down": [0, 1]},
         "counts": 1,
         "ID": 6,
         "image_path": "Visualize/Tiles/6.png"
     },
     {
         "edges": {"left": "C", "up": "C", "right": "C", "down": "R"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [null, null], "down": [0, 1]},
         "counts": 2,
         "shield": true,
         "ID": 7,
@@ -48,12 +62,16 @@
     },
     {
         "edges": {"left": "C", "up": "C", "right": "G", "down": "G"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [0, 0], "down": [0, 0]},
         "counts": 3,
         "ID": 8,
         "image_path": "Visualize/Tiles/8.png"
     },
     {
         "edges": {"left": "C", "up": "C", "right": "G", "down": "G"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [0, 0], "down": [0, 0]},
         "counts": 2,
         "shield": true,
         "ID": 9,
@@ -61,12 +79,16 @@
     },
     {
         "edges": {"left": "C", "up": "C", "right": "R", "down": "R"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [0, 1], "down": [1, 0]},
         "counts": 3,
         "ID": 10,
         "image_path": "Visualize/Tiles/10.png"
     },
     {
         "edges": {"left": "C", "up": "C", "right": "R", "down": "R"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [0, 1], "down": [1, 0]},
         "counts": 2,
         "shield": true,
         "ID": 11,
@@ -74,12 +96,16 @@
     },
     {
         "edges": {"left": "C", "up": "G", "right": "C", "down": "G"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [null, null], "up": [0, 0], "right": [null, null], "down": [1, 1]},
         "counts": 1,
         "ID": 12,
         "image_path": "Visualize/Tiles/12.png"
     },
     {
         "edges": {"left": "C", "up": "G", "right": "C", "down": "G"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [null, null], "up": [0, 0], "right": [null, null], "down": [1, 1]},
         "counts": 2,
         "shield": true,
         "ID": 13,
@@ -87,6 +113,8 @@
     },
     {
         "edges": {"left": "C", "up": "C", "right": "G", "down": "G"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [null, null], "up": [null, null], "right": [0, 0], "down": [0, 0]},
         "counts": 2,
         "separate": true,
         "ID": 14,
@@ -94,6 +122,8 @@
     },
     {
         "edges": {"left": "G", "up": "C", "right": "G", "down": "C"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [0, 0], "up": [null, null], "right": [0, 0], "down": [null, null]},
         "counts": 3,
         "separate": true,
         "ID": 15,
@@ -101,24 +131,32 @@
     },
     {
         "edges": {"left": "G", "up": "C", "right": "G", "down": "G"},
+        "fields_counts": 1,
+        "fields_sides": {"left": [0, 0], "up": [null, null], "right": [0, 0], "down": [0, 0]},
         "counts": 5,
         "ID": 16,
         "image_path": "Visualize/Tiles/16.png"
     },
     {
         "edges": {"left": "R", "up": "C", "right": "G", "down": "R"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [0, 1], "up": [null, null], "right": [1, 1], "down": [1, 0]},
         "counts": 3,
         "ID": 17,
         "image_path": "Visualize/Tiles/17.png"
     },
     {
         "edges": {"left": "G", "up": "C", "right": "R", "down": "R"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [0, 0], "up": [null, null], "right": [0, 1], "down": [1, 0]},
         "counts": 3,
         "ID": 18,
         "image_path": "Visualize/Tiles/18.png"
     },
     {
         "edges": {"left": "R", "up": "C", "right": "R", "down": "R"},
+        "fields_counts": 3,
+        "fields_sides": {"left": [0, 1], "up": [null, null], "right": [1, 2], "down": [2, 0]},
         "counts": 3,
         "brake": true,
         "ID": 19,
@@ -126,24 +164,32 @@
     },
     {
         "edges": {"left": "R", "up": "C", "right": "R", "down": "G"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [0, 1], "up": [null, null], "right": [1, 0], "down": [0, 0]},
         "counts": 3,
         "ID": 20,
         "image_path": "Visualize/Tiles/20.png"
     },
     {
         "edges": {"left": "R", "up": "G", "right": "R", "down": "G"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [0, 1], "up": [1, 1], "right": [1, 0], "down": [0, 0]},
         "counts": 8,
         "ID": 21,
         "image_path": "Visualize/Tiles/21.png"
     },
     {
         "edges": {"left": "R", "up": "G", "right": "G", "down": "R"},
+        "fields_counts": 2,
+        "fields_sides": {"left": [0, 1], "up": [1, 1], "right": [1, 1], "down": [1, 0]},
         "counts": 9,
         "ID": 22,
         "image_path": "Visualize/Tiles/22.png"
     },
     {
         "edges": {"left": "R", "up": "G", "right": "R", "down": "R"},
+        "fields_counts": 3,
+        "fields_sides": {"left": [0, 1], "up": [1, 1], "right": [1, 2], "down": [2, 0]},
         "counts": 4,
         "brake": true,
         "ID": 23,
@@ -151,6 +197,8 @@
     },
     {
         "edges": {"left": "R", "up": "R", "right": "R", "down": "R"},
+        "fields_counts": 4,
+        "fields_sides": {"left": [0, 1], "up": [1, 2], "right": [2, 3], "down": [3, 0]},
         "counts": 1,
         "brake": true,
         "ID": 24,

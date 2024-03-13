@@ -3,400 +3,44 @@
         "ID": 1,
         "indices": [
             [
-                50,
-                50
+                35,
+                35
             ]
         ],
-        "is_open": false,
+        "is_open": true,
         "players": [],
         "type": "city",
         "shield": 0,
-        "additional_points": 1
+        "additional_points": 0
+    },
+    {
+        "ID": 2,
+        "indices": [
+            [
+                35,
+                36
+            ]
+        ],
+        "is_open": true,
+        "players": [
+            0
+        ],
+        "type": "city",
+        "shield": 0,
+        "additional_points": 0
     },
     {
         "ID": 3,
         "indices": [
             [
-                52,
-                48
+                36,
+                34
             ]
         ],
         "is_open": true,
         "players": [],
         "type": "city",
         "shield": 0,
-        "additional_points": 1
-    },
-    {
-        "ID": 4,
-        "indices": [
-            [
-                51,
-                47
-            ]
-        ],
-        "is_open": true,
-        "players": [],
-        "type": "city",
-        "shield": 1,
-        "additional_points": 1
-    },
-    {
-        "ID": 5,
-        "indices": [
-            [
-                51,
-                51
-            ],
-            [
-                50,
-                51
-            ]
-        ],
-        "is_open": false,
-        "players": [],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 8,
-        "indices": [
-            [
-                47,
-                49
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            0
-        ],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 14,
-        "indices": [
-            [
-                52,
-                51
-            ],
-            [
-                53,
-                51
-            ]
-        ],
-        "is_open": true,
-        "players": [],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 15,
-        "indices": [
-            [
-                53,
-                53
-            ],
-            [
-                53,
-                52
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            1
-        ],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 19,
-        "indices": [
-            [
-                50,
-                53
-            ],
-            [
-                50,
-                52
-            ],
-            [
-                51,
-                53
-            ],
-            [
-                51,
-                52
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            0
-        ],
-        "type": "city",
-        "shield": 3,
-        "additional_points": 1
-    },
-    {
-        "ID": 21,
-        "indices": [
-            [
-                55,
-                50
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            1
-        ],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 22,
-        "indices": [
-            [
-                47,
-                52
-            ]
-        ],
-        "is_open": true,
-        "players": [],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 23,
-        "indices": [
-            [
-                55,
-                53
-            ]
-        ],
-        "is_open": true,
-        "players": [],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 24,
-        "indices": [
-            [
-                53,
-                47
-            ]
-        ],
-        "is_open": true,
-        "players": [],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 28,
-        "indices": [
-            [
-                50,
-                43
-            ]
-        ],
-        "is_open": true,
-        "players": [],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 29,
-        "indices": [
-            [
-                49,
-                53
-            ],
-            [
-                49,
-                52
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            0
-        ],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 32,
-        "indices": [
-            [
-                55,
-                52
-            ],
-            [
-                55,
-                51
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            1
-        ],
-        "type": "city",
-        "shield": 1,
-        "additional_points": 0
-    },
-    {
-        "ID": 33,
-        "indices": [
-            [
-                51,
-                56
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            0
-        ],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 34,
-        "indices": [
-            [
-                48,
-                50
-            ],
-            [
-                47,
-                51
-            ],
-            [
-                47,
-                50
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            1
-        ],
-        "type": "city",
-        "shield": 1,
-        "additional_points": 2
-    },
-    {
-        "ID": 35,
-        "indices": [
-            [
-                53,
-                55
-            ],
-            [
-                52,
-                56
-            ],
-            [
-                52,
-                55
-            ],
-            [
-                53,
-                56
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            1
-        ],
-        "type": "city",
-        "shield": 1,
-        "additional_points": 0
-    },
-    {
-        "ID": 36,
-        "indices": [
-            [
-                54,
-                45
-            ],
-            [
-                53,
-                45
-            ]
-        ],
-        "is_open": true,
-        "players": [],
-        "type": "city",
-        "shield": 1,
-        "additional_points": 0
-    },
-    {
-        "ID": 37,
-        "indices": [
-            [
-                47,
-                47
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            0
-        ],
-        "type": "city",
-        "shield": 1,
-        "additional_points": 0
-    },
-    {
-        "ID": 38,
-        "indices": [
-            [
-                46,
-                48
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            1
-        ],
-        "type": "city",
-        "shield": 0,
-        "additional_points": 0
-    },
-    {
-        "ID": 39,
-        "indices": [
-            [
-                49,
-                44
-            ],
-            [
-                49,
-                45
-            ],
-            [
-                50,
-                44
-            ],
-            [
-                50,
-                45
-            ]
-        ],
-        "is_open": true,
-        "players": [
-            0
-        ],
-        "type": "city",
-        "shield": 1,
         "additional_points": 0
     }
 ]

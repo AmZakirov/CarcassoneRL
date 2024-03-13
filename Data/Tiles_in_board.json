@@ -1,1396 +1,152 @@
 [
     {
         "edges": {
-            "left": "G",
-            "up": "C",
-            "right": "constrained G",
-            "down": "constrained G"
-        },
-        "counts": 5,
-        "ID": 16,
-        "image_path": "Visualize/Tiles/16.png",
-        "rotated": 0,
-        "coord": [
-            46,
-            48
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 70
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "G",
-            "right": "constrained G",
-            "down": "constrained R"
-        },
-        "counts": 2,
-        "church": true,
-        "ID": 2,
-        "image_path": "Visualize/Tiles/2.png",
-        "rotated": 0,
-        "coord": [
-            46,
-            49
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 46
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "C",
-            "right": "G",
-            "down": "constrained C"
-        },
-        "counts": 3,
-        "separate": true,
-        "ID": 15,
-        "image_path": "Visualize/Tiles/15.png",
-        "rotated": 2,
-        "coord": [
-            46,
-            50
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 44
-    },
-    {
-        "edges": {
-            "left": "R",
-            "up": "G",
-            "right": "R",
-            "down": "constrained G"
-        },
-        "counts": 8,
-        "ID": 21,
-        "image_path": "Visualize/Tiles/21.png",
-        "rotated": 2,
-        "coord": [
-            46,
-            53
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 63
-    },
-    {
-        "edges": {
-            "left": "G",
-            "up": "C",
-            "right": "constrained G",
-            "down": "C"
-        },
-        "counts": 2,
-        "shield": true,
-        "ID": 13,
-        "image_path": "Visualize/Tiles/13.png",
-        "rotated": 1,
-        "coord": [
-            47,
-            47
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 69
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained G",
-            "right": "constrained R",
-            "down": "constrained R"
-        },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 3,
-        "coord": [
-            47,
-            48
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 15
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained R",
-            "right": "constrained G",
-            "down": "C"
-        },
-        "counts": 3,
-        "ID": 18,
-        "image_path": "Visualize/Tiles/18.png",
-        "rotated": 2,
-        "coord": [
-            47,
-            49
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 19
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained C",
-            "right": "constrained C",
-            "down": "constrained C"
-        },
-        "counts": 1,
-        "shield": true,
-        "ID": 5,
-        "image_path": "Visualize/Tiles/5.png",
-        "rotated": 1,
-        "coord": [
-            47,
-            50
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 23
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "C",
-            "right": "constrained G",
-            "down": "constrained G"
-        },
-        "counts": 3,
-        "ID": 8,
-        "image_path": "Visualize/Tiles/8.png",
-        "rotated": 0,
-        "coord": [
-            47,
-            51
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 24
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "C",
-            "right": "constrained R",
-            "down": "R"
-        },
-        "counts": 3,
-        "ID": 18,
-        "image_path": "Visualize/Tiles/18.png",
-        "rotated": 0,
-        "coord": [
-            47,
-            52
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 42
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained G",
-            "right": "constrained R",
-            "down": "R"
-        },
-        "counts": 4,
-        "brake": true,
-        "ID": 23,
-        "image_path": "Visualize/Tiles/23.png",
-        "rotated": 0,
-        "coord": [
-            47,
-            53
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 62
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "G",
-            "right": "G",
-            "down": "R"
-        },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 0,
-        "coord": [
-            47,
-            54
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 65
-    },
-    {
-        "edges": {
-            "left": "G",
-            "up": "constrained R",
-            "right": "G",
-            "down": "constrained R"
-        },
-        "counts": 8,
-        "ID": 21,
-        "image_path": "Visualize/Tiles/21.png",
-        "rotated": 3,
-        "coord": [
-            48,
-            48
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 12
-    },
-    {
-        "edges": {
-            "left": "G",
-            "up": "constrained C",
-            "right": "constrained C",
-            "down": "constrained C"
-        },
-        "counts": 3,
-        "ID": 4,
-        "image_path": "Visualize/Tiles/4.png",
-        "rotated": 1,
-        "coord": [
-            48,
-            50
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 64
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "constrained G",
-            "right": "C",
-            "down": "G"
-        },
-        "counts": 3,
-        "separate": true,
-        "ID": 15,
-        "image_path": "Visualize/Tiles/15.png",
-        "rotated": 1,
-        "coord": [
-            48,
-            51
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 25
-    },
-    {
-        "edges": {
-            "left": "C",
-            "up": "C",
-            "right": "constrained C",
-            "down": "constrained C"
-        },
-        "counts": 1,
-        "shield": true,
-        "ID": 3,
-        "image_path": "Visualize/Tiles/3.png",
-        "rotated": 3,
-        "coord": [
-            49,
-            44
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 71
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "G",
-            "right": "R",
-            "down": "constrained R"
-        },
-        "counts": 3,
-        "ID": 17,
-        "image_path": "Visualize/Tiles/17.png",
-        "rotated": 3,
-        "coord": [
-            49,
-            45
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 49
-    },
-    {
-        "edges": {
-            "left": "R",
-            "up": "R",
-            "right": "constrained R",
-            "down": "constrained R"
-        },
-        "counts": 1,
-        "brake": true,
-        "ID": 24,
-        "image_path": "Visualize/Tiles/24.png",
-        "rotated": 1,
-        "coord": [
-            49,
-            47
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 11
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained R",
-            "right": "constrained G",
-            "down": "constrained G"
-        },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 1,
-        "coord": [
-            49,
-            48
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 6
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "G",
-            "right": "constrained G",
-            "down": "constrained G"
-        },
-        "counts": 4,
-        "church": true,
-        "ID": 1,
-        "image_path": "Visualize/Tiles/1.png",
-        "rotated": 1,
-        "coord": [
-            49,
-            49
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 5
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained C",
-            "right": "G",
-            "down": "constrained C"
-        },
-        "counts": 3,
-        "separate": true,
-        "ID": 15,
-        "image_path": "Visualize/Tiles/15.png",
-        "rotated": 0,
-        "coord": [
-            49,
-            50
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 3
-    },
-    {
-        "edges": {
             "left": "R",
             "up": "C",
-            "right": "constrained C",
-            "down": "constrained R"
-        },
-        "counts": 3,
-        "ID": 10,
-        "image_path": "Visualize/Tiles/10.png",
-        "rotated": 1,
-        "coord": [
-            49,
-            52
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 33
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "G",
-            "right": "constrained G",
-            "down": "constrained G"
-        },
-        "counts": 5,
-        "ID": 16,
-        "image_path": "Visualize/Tiles/16.png",
-        "rotated": 3,
-        "coord": [
-            49,
-            53
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 53
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "R",
-            "right": "G",
-            "down": "R"
-        },
-        "counts": 8,
-        "ID": 21,
-        "image_path": "Visualize/Tiles/21.png",
-        "rotated": 3,
-        "coord": [
-            49,
-            54
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 56
-    },
-    {
-        "edges": {
-            "left": "C",
-            "up": "C",
-            "right": "constrained G",
-            "down": "constrained G"
-        },
-        "counts": 3,
-        "ID": 8,
-        "image_path": "Visualize/Tiles/8.png",
-        "rotated": 0,
-        "coord": [
-            50,
-            43
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 51
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained C",
-            "right": "constrained C",
-            "down": "C"
-        },
-        "counts": 3,
-        "ID": 4,
-        "image_path": "Visualize/Tiles/4.png",
-        "rotated": 1,
-        "coord": [
-            50,
-            44
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 50
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "constrained R",
-            "right": "constrained R",
-            "down": "R"
-        },
-        "counts": 3,
-        "brake": true,
-        "ID": 19,
-        "image_path": "Visualize/Tiles/19.png",
-        "rotated": 3,
-        "coord": [
-            50,
-            45
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 48
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "G",
-            "right": "constrained G",
-            "down": "constrained R"
-        },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 0,
-        "coord": [
-            50,
-            46
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 34
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained R",
             "right": "constrained R",
             "down": "constrained G"
         },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 2,
-        "coord": [
-            50,
-            47
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 18
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained G",
-            "right": "constrained R",
-            "down": "constrained G"
-        },
-        "counts": 8,
-        "ID": 21,
-        "image_path": "Visualize/Tiles/21.png",
-        "rotated": 2,
-        "coord": [
-            50,
-            48
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 45
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained G",
-            "right": "constrained R",
-            "down": "constrained G"
-        },
-        "counts": 8,
-        "ID": 21,
-        "image_path": "Visualize/Tiles/21.png",
-        "rotated": 0,
-        "coord": [
-            50,
-            49
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 1
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained C",
-            "right": "constrained R",
-            "down": "G"
+        "fields_counts": 2,
+        "fields_sides": {
+            "left": [
+                0,
+                1
+            ],
+            "up": [
+                null,
+                null
+            ],
+            "right": [
+                1,
+                0
+            ],
+            "down": [
+                0,
+                0
+            ]
         },
         "counts": 3,
         "ID": 20,
         "image_path": "Visualize/Tiles/20.png",
         "GameID": 0,
         "coord": [
-            50,
-            50
+            35,
+            35
         ]
     },
     {
         "edges": {
             "left": "constrained R",
-            "up": "R",
-            "right": "constrained R",
-            "down": "constrained C"
-        },
-        "counts": 3,
-        "brake": true,
-        "ID": 19,
-        "image_path": "Visualize/Tiles/19.png",
-        "rotated": 2,
-        "coord": [
-            50,
-            51
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 2
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained R",
-            "right": "constrained C",
-            "down": "constrained C"
-        },
-        "counts": 3,
-        "ID": 10,
-        "image_path": "Visualize/Tiles/10.png",
-        "rotated": 2,
-        "coord": [
-            50,
-            52
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 20
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "constrained G",
-            "right": "C",
-            "down": "constrained G"
-        },
-        "counts": 2,
-        "shield": true,
-        "ID": 13,
-        "image_path": "Visualize/Tiles/13.png",
-        "rotated": 2,
-        "coord": [
-            50,
-            53
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 37
-    },
-    {
-        "edges": {
-            "left": "G",
             "up": "G",
-            "right": "constrained R",
-            "down": "R"
-        },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 3,
-        "coord": [
-            51,
-            42
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 57
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained G",
-            "right": "G",
-            "down": "R"
-        },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 0,
-        "coord": [
-            51,
-            43
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 55
-    },
-    {
-        "edges": {
-            "left": "R",
-            "up": "constrained R",
-            "right": "constrained G",
-            "down": "constrained G"
-        },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 1,
-        "coord": [
-            51,
-            46
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 27
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained G",
-            "right": "constrained C",
+            "right": "R",
             "down": "C"
         },
-        "counts": 2,
-        "shield": true,
-        "ID": 9,
-        "image_path": "Visualize/Tiles/9.png",
-        "rotated": 2,
-        "coord": [
-            51,
-            47
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 9
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "constrained G",
-            "right": "constrained G",
-            "down": "constrained C"
-        },
-        "counts": 2,
-        "separate": true,
-        "ID": 14,
-        "image_path": "Visualize/Tiles/14.png",
-        "rotated": 3,
-        "coord": [
-            51,
-            48
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 7
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained G",
-            "right": "G",
-            "down": "constrained G"
-        },
-        "counts": 4,
-        "church": true,
-        "ID": 1,
-        "image_path": "Visualize/Tiles/1.png",
-        "rotated": 1,
-        "coord": [
-            51,
-            49
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 4
-    },
-    {
-        "edges": {
-            "left": "R",
-            "up": "constrained C",
-            "right": "constrained R",
-            "down": "constrained G"
+        "fields_counts": 2,
+        "fields_sides": {
+            "left": [
+                1,
+                0
+            ],
+            "up": [
+                0,
+                0
+            ],
+            "right": [
+                0,
+                1
+            ],
+            "down": [
+                null,
+                null
+            ]
         },
         "counts": 3,
         "ID": 20,
         "image_path": "Visualize/Tiles/20.png",
-        "rotated": 0,
+        "rotated": 2,
         "coord": [
-            51,
-            51
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 10
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained C",
-            "right": "constrained C",
-            "down": "constrained C"
-        },
-        "counts": 2,
-        "shield": true,
-        "ID": 7,
-        "image_path": "Visualize/Tiles/7.png",
-        "rotated": 1,
-        "coord": [
-            51,
-            52
+            35,
+            36
         ],
         "direction": "right",
         "opposite_direction": "left",
-        "GameID": 14
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "constrained G",
-            "right": "constrained G",
-            "down": "C"
-        },
-        "counts": 2,
-        "shield": true,
-        "ID": 9,
-        "image_path": "Visualize/Tiles/9.png",
-        "rotated": 3,
-        "coord": [
-            51,
-            53
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 17
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "G",
-            "right": "R",
-            "down": "constrained R"
-        },
-        "counts": 9,
-        "ID": 22,
-        "image_path": "Visualize/Tiles/22.png",
-        "rotated": 3,
-        "coord": [
-            51,
-            54
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 22
+        "GameID": 1
     },
     {
         "edges": {
             "left": "G",
-            "up": "G",
-            "right": "C",
-            "down": "constrained G"
-        },
-        "counts": 5,
-        "ID": 16,
-        "image_path": "Visualize/Tiles/16.png",
-        "rotated": 1,
-        "coord": [
-            51,
-            56
-        ],
-        "direction": "up",
-        "opposite_direction": "down",
-        "GameID": 61
-    },
-    {
-        "edges": {
-            "left": "G",
-            "up": "R",
-            "right": "constrained R",
-            "down": "constrained R"
-        },
-        "counts": 4,
-        "brake": true,
-        "ID": 23,
-        "image_path": "Visualize/Tiles/23.png",
-        "rotated": 3,
-        "coord": [
-            52,
-            45
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 58
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained G",
-            "right": "R",
-            "down": "G"
-        },
-        "counts": 8,
-        "ID": 21,
-        "image_path": "Visualize/Tiles/21.png",
-        "rotated": 2,
-        "coord": [
-            52,
-            46
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 52
-    },
-    {
-        "edges": {
-            "left": "C",
-            "up": "constrained C",
-            "right": "constrained G",
-            "down": "constrained G"
-        },
-        "counts": 3,
-        "ID": 8,
-        "image_path": "Visualize/Tiles/8.png",
-        "rotated": 0,
-        "coord": [
-            52,
-            48
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 8
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained G",
-            "right": "constrained G",
-            "down": "G"
-        },
-        "counts": 4,
-        "church": true,
-        "ID": 1,
-        "image_path": "Visualize/Tiles/1.png",
-        "rotated": 3,
-        "coord": [
-            52,
-            49
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 13
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "R",
-            "right": "constrained G",
-            "down": "R"
-        },
-        "counts": 8,
-        "ID": 21,
-        "image_path": "Visualize/Tiles/21.png",
-        "rotated": 1,
-        "coord": [
-            52,
-            50
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 21
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained G",
-            "right": "constrained G",
-            "down": "constrained C"
-        },
-        "counts": 5,
-        "ID": 16,
-        "image_path": "Visualize/Tiles/16.png",
-        "rotated": 2,
-        "coord": [
-            52,
-            51
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 31
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained C",
-            "right": "C",
-            "down": "constrained G"
-        },
-        "counts": 2,
-        "separate": true,
-        "ID": 14,
-        "image_path": "Visualize/Tiles/14.png",
-        "rotated": 1,
-        "coord": [
-            52,
-            52
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 16
-    },
-    {
-        "edges": {
-            "left": "R",
-            "up": "constrained R",
-            "right": "constrained R",
-            "down": "G"
-        },
-        "counts": 4,
-        "brake": true,
-        "ID": 23,
-        "image_path": "Visualize/Tiles/23.png",
-        "rotated": 2,
-        "coord": [
-            52,
-            54
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 28
-    },
-    {
-        "edges": {
-            "left": "constrained R",
             "up": "C",
-            "right": "constrained C",
-            "down": "constrained C"
-        },
-        "counts": 1,
-        "ID": 6,
-        "image_path": "Visualize/Tiles/6.png",
-        "rotated": 1,
-        "coord": [
-            52,
-            55
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 35
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "constrained G",
-            "right": "R",
-            "down": "constrained R"
-        },
-        "counts": 3,
-        "ID": 17,
-        "image_path": "Visualize/Tiles/17.png",
-        "rotated": 3,
-        "coord": [
-            52,
-            56
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 36
-    },
-    {
-        "edges": {
-            "left": "G",
-            "up": "R",
-            "right": "constrained G",
+            "right": "constrained R",
             "down": "R"
         },
-        "counts": 8,
-        "ID": 21,
-        "image_path": "Visualize/Tiles/21.png",
-        "rotated": 1,
-        "coord": [
-            53,
-            44
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 67
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained R",
-            "right": "R",
-            "down": "constrained C"
+        "fields_counts": 2,
+        "fields_sides": {
+            "left": [
+                0,
+                0
+            ],
+            "up": [
+                null,
+                null
+            ],
+            "right": [
+                0,
+                1
+            ],
+            "down": [
+                1,
+                0
+            ]
         },
         "counts": 3,
-        "ID": 17,
-        "image_path": "Visualize/Tiles/17.png",
-        "rotated": 2,
+        "ID": 18,
+        "image_path": "Visualize/Tiles/18.png",
+        "rotated": 0,
         "coord": [
-            53,
-            45
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 59
-    },
-    {
-        "edges": {
-            "left": "C",
-            "up": "G",
-            "right": "constrained G",
-            "down": "G"
-        },
-        "counts": 5,
-        "ID": 16,
-        "image_path": "Visualize/Tiles/16.png",
-        "rotated": 3,
-        "coord": [
-            53,
-            47
+            36,
+            34
         ],
         "direction": "left",
         "opposite_direction": "right",
-        "GameID": 47
+        "GameID": 3
     },
     {
         "edges": {
-            "left": "constrained G",
+            "left": "constrained R",
             "up": "constrained G",
             "right": "G",
-            "down": "R"
+            "down": "G"
+        },
+        "fields_counts": 1,
+        "fields_sides": {
+            "left": [
+                0,
+                0
+            ],
+            "up": [
+                0,
+                0
+            ],
+            "right": [
+                0,
+                0
+            ],
+            "down": [
+                0,
+                0
+            ]
         },
         "counts": 2,
         "church": true,
         "ID": 2,
         "image_path": "Visualize/Tiles/2.png",
-        "rotated": 0,
-        "coord": [
-            53,
-            48
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 30
-    },
-    {
-        "edges": {
-            "left": "C",
-            "up": "constrained C",
-            "right": "constrained R",
-            "down": "constrained R"
-        },
-        "counts": 3,
-        "ID": 10,
-        "image_path": "Visualize/Tiles/10.png",
-        "rotated": 0,
-        "coord": [
-            53,
-            51
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 29
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained G",
-            "right": "constrained C",
-            "down": "R"
-        },
-        "counts": 3,
-        "ID": 18,
-        "image_path": "Visualize/Tiles/18.png",
         "rotated": 1,
         "coord": [
-            53,
-            52
+            36,
+            35
         ],
         "direction": "down",
         "opposite_direction": "up",
-        "GameID": 26
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "G",
-            "right": "C",
-            "down": "constrained G"
-        },
-        "counts": 1,
-        "ID": 12,
-        "image_path": "Visualize/Tiles/12.png",
-        "rotated": 0,
-        "coord": [
-            53,
-            53
-        ],
-        "direction": "right",
-        "opposite_direction": "left",
-        "GameID": 32
-    },
-    {
-        "edges": {
-            "left": "R",
-            "up": "constrained C",
-            "right": "constrained C",
-            "down": "R"
-        },
-        "counts": 2,
-        "shield": true,
-        "ID": 11,
-        "image_path": "Visualize/Tiles/11.png",
-        "rotated": 1,
-        "coord": [
-            53,
-            55
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 66
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "constrained R",
-            "right": "R",
-            "down": "R"
-        },
-        "counts": 3,
-        "brake": true,
-        "ID": 19,
-        "image_path": "Visualize/Tiles/19.png",
-        "rotated": 3,
-        "coord": [
-            53,
-            56
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 54
-    },
-    {
-        "edges": {
-            "left": "C",
-            "up": "constrained C",
-            "right": "R",
-            "down": "R"
-        },
-        "counts": 2,
-        "shield": true,
-        "ID": 11,
-        "image_path": "Visualize/Tiles/11.png",
-        "rotated": 0,
-        "coord": [
-            54,
-            45
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 68
-    },
-    {
-        "edges": {
-            "left": "G",
-            "up": "constrained R",
-            "right": "R",
-            "down": "constrained R"
-        },
-        "counts": 4,
-        "brake": true,
-        "ID": 23,
-        "image_path": "Visualize/Tiles/23.png",
-        "rotated": 3,
-        "coord": [
-            54,
-            51
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 38
-    },
-    {
-        "edges": {
-            "left": "G",
-            "up": "constrained G",
-            "right": "G",
-            "down": "constrained G"
-        },
-        "counts": 4,
-        "church": true,
-        "ID": 1,
-        "image_path": "Visualize/Tiles/1.png",
-        "rotated": 3,
-        "coord": [
-            54,
-            53
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 41
-    },
-    {
-        "edges": {
-            "left": "C",
-            "up": "C",
-            "right": "constrained G",
-            "down": "C"
-        },
-        "counts": 3,
-        "ID": 4,
-        "image_path": "Visualize/Tiles/4.png",
-        "rotated": 3,
-        "coord": [
-            55,
-            50
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 40
-    },
-    {
-        "edges": {
-            "left": "constrained G",
-            "up": "constrained R",
-            "right": "constrained C",
-            "down": "R"
-        },
-        "counts": 3,
-        "ID": 20,
-        "image_path": "Visualize/Tiles/20.png",
-        "rotated": 1,
-        "coord": [
-            55,
-            51
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 39
-    },
-    {
-        "edges": {
-            "left": "constrained C",
-            "up": "C",
-            "right": "constrained R",
-            "down": "C"
-        },
-        "counts": 2,
-        "shield": true,
-        "ID": 7,
-        "image_path": "Visualize/Tiles/7.png",
-        "rotated": 3,
-        "coord": [
-            55,
-            52
-        ],
-        "direction": "left",
-        "opposite_direction": "right",
-        "GameID": 60
-    },
-    {
-        "edges": {
-            "left": "constrained R",
-            "up": "constrained G",
-            "right": "R",
-            "down": "C"
-        },
-        "counts": 3,
-        "ID": 20,
-        "image_path": "Visualize/Tiles/20.png",
-        "rotated": 2,
-        "coord": [
-            55,
-            53
-        ],
-        "direction": "down",
-        "opposite_direction": "up",
-        "GameID": 43
+        "GameID": 2
     }
 ]

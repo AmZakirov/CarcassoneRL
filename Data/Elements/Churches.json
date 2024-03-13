@@ -2,62 +2,12 @@
     {
         "ID": 1,
         "indices": [
-            51,
-            49
-        ],
-        "players": [],
-        "is_open": true,
-        "type": "church"
-    },
-    {
-        "ID": 2,
-        "indices": [
-            49,
-            49
-        ],
-        "players": [],
-        "is_open": true,
-        "type": "church"
-    },
-    {
-        "ID": 3,
-        "indices": [
-            52,
-            49
-        ],
-        "players": [],
-        "is_open": true,
-        "type": "church"
-    },
-    {
-        "ID": 4,
-        "indices": [
-            53,
-            48
+            36,
+            35
         ],
         "players": [
             1
         ],
-        "is_open": true,
-        "type": "church"
-    },
-    {
-        "ID": 5,
-        "indices": [
-            54,
-            53
-        ],
-        "players": [],
-        "is_open": true,
-        "type": "church"
-    },
-    {
-        "ID": 6,
-        "indices": [
-            46,
-            49
-        ],
-        "players": [],
         "is_open": true,
         "type": "church"
     }

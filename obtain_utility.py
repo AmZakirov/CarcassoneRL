@@ -1,53 +1,47 @@
+from Env import Carcassone
+from TD import Mats
 import matplotlib.pyplot as plt
 from datetime import datetime
 import numpy as np
 
-from Env import Carcassone
-from Visualize.Visualizer import plot_board
-from Models.DQNagent import DQNAgent
-
 
 def main():
     
-    utility_matrix = np.load('utility.npy')
-    num_ep = 10
+    mats = Mats()
+    num_ep = 9000
     rewards = []
     random_rewards = []
+    
     winners = np.array(np.linspace(0, 0, num_ep))
     mean_rewards = np.array(np.linspace(0, 0, num_ep))
     mean_random_rewards = np.array(np.linspace(0, 0, num_ep))
-    state_size = 17
-    action_size = 4      
-    agent = DQNAgent(state_size, action_size, to_load=True)
+    
     
     for episode in range(num_ep):
         
         env = Carcassone()
-
         for ind, tile in enumerate(env.tiles):
             
             if ind % 2 == 0:
+                
                 try:
-                    tile_to_put, actions, rewards_ = env.step(tile, 0, utility_matrix, dqn=True)
+                    reward, rotation, tile_id, x, y = env.step(tile, 0, mats.utility_matrix)
                 except:
                     continue
                 
-                next_state = env.dqn_state(tile_to_put, actions, rewards_)
-                next_state = np.reshape(next_state, [1, state_size])
-                if ind != 0:
-                    action = agent.act_loaded(next_state)
-                else:
-                    action = len(actions) - 1
-                    
-                reward = env.dqn_action(tile_to_put, actions, rewards_, action)
-                points = env.end_game()
-                        
+                if tile_id != 0 and episode > 0:
+                    mats.update_utility(rotation, tile_id, reward, x, y, previous)
+                    previous = (rotation, tile_id - 1, x, y)
+                
+                if episode == 0:
+                    previous = (rotation, tile_id - 1, x, y)
+            
             else:
                 try:
-                    env.step(tile, 1, utility_matrix)
+                    reward, rotation, tile_id, x, y = env.step(tile, 1, mats.utility_matrix)
                 except:
                     continue
-                            
+            
         final_rewards = env.end_game()
         rewards.append(final_rewards[0])
         random_rewards.append(final_rewards[1])
@@ -59,12 +53,12 @@ def main():
         elif final_rewards[1] == final_rewards[0]:
             winners[episode] = 2
         
-        print('Episode done', episode, datetime.now(), final_rewards)
+        print(episode, datetime.now())
         
-    np.save('rewards_dqn', rewards)
-    np.save('winners_dqn', winners)
-    plot_board(env.board.board)  
-    plt.show()
+    np.save('rewards', rewards)
+    np.save('winners', winners)
+    np.save('utility', mats.utility_matrix)
+    
     plt.title('Mean reward')
     plt.plot(mean_rewards, color='r')
     plt.plot(mean_random_rewards, color='b')

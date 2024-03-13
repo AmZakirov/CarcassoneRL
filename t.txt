@@ -1,0 +1,178 @@
+
+  .ya-custom-route-control .ymaps-2-1-79-control-popup {
+    box-shadow: none;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-control-popup__content {
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-control-popup__header {
+    padding: 24px 16px;
+    border: none;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-control-popup__icon {
+    display: none;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-control-popup__title {
+    font-family: Lato, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 28px;
+    color: #152242;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel__types {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-types {
+    margin-top: 0;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-types__type {
+    margin-left: 0;
+    width: 33%;
+    color: #737a8e;
+    opacity: 1;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: center;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-types__type_auto {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNCA3TDEzLjYgNUwxMy4xNjA4IDIuODAzODhDMTMuMDY3MyAyLjMzNjQ2IDEyLjY1NjkgMiAxMi4xODAyIDJIMy44MTk4QzMuMzQzMTIgMiAyLjkzMjcxIDIuMzM2NDYgMi44MzkyMiAyLjgwMzg4TDIuNCA1TDIgN0wxIDguMlYxMkMxIDEyLjU1MjMgMS40NDc3MiAxMyAyIDEzVjEzLjVDMiAxNC4wNTIzIDIuNDQ3NzIgMTQuNSAzIDE0LjVINEM0LjU1MjI4IDE0LjUgNSAxNC4wNTIzIDUgMTMuNVYxM0g1LjQyODU3SDEwLjU3MTRIMTFWMTMuNUMxMSAxNC4wNTIzIDExLjQ0NzcgMTQuNSAxMiAxNC41SDEzQzEzLjU1MjMgMTQuNSAxNCAxNC4wNTIzIDE0IDEzLjVWMTNDMTQuNTUyMyAxMyAxNSAxMi41NTIzIDE1IDEyVjguMkwxNCA3Wk0xMS41NTU2IDVIMTEuNTYwNEwxMS4zNjA0IDRIMTEuMzMzM0g0LjY2NjY3SDQuNjM5NjFMNC40Mzk2MSA1SDQuNDQ0NDRMNCA3SDEyTDExLjU1NTYgNVpNMyAxMC41QzMgOS45NDc3MiAzLjQ0NzcyIDkuNSA0IDkuNUM0LjU1MjI4IDkuNSA1IDkuOTQ3NzIgNSAxMC41QzUgMTEuMDUyMyA0LjU1MjI4IDExLjUgNCAxMS41QzMuNDQ3NzIgMTEuNSAzIDExLjA1MjMgMyAxMC41Wk0xMiA5LjVDMTEuNDQ3NyA5LjUgMTEgOS45NDc3MiAxMSAxMC41QzExIDExLjA1MjMgMTEuNDQ3NyAxMS41IDEyIDExLjVDMTIuNTUyMyAxMS41IDEzIDExLjA1MjMgMTMgMTAuNUMxMyA5Ljk0NzcyIDEyLjU1MjMgOS41IDEyIDkuNVoiIGZpbGw9IiM3MDdBOTUiLz4KPC9zdmc+Cg==);
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-types__type_masstransit {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNyAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjEyNDMzIDFIMTIuNTM5N0MxMy41MjU1IDEgMTQuMzMyIDEuNzkyMTMgMTQuMzMyIDIuNzYwM0wxNC4zMzIxIDExLjExOTlDMTQuMzMyMSAxMS42NDc5IDEzLjk3MzYgMTIgMTMuNDM1OSAxMkgxMS42ODg2TDEyLjk4ODYgMTVIMTAuODA4OUw5LjUwODkxIDEySDcuMTE4NjZMNS44NDM2NyAxNUgzLjY3MDU0TDQuOTQ1NTMgMTJIMy4yMjgyNEMyLjY5MDU1IDEyIDIuMzMyMDkgMTEuNjQ3OSAyLjMzMjA5IDExLjExOTlMMi4zMzIwMyAyLjc2MDNDMi4zMzIwMyAxLjc5MjEzIDMuMTM4NTcgMSA0LjEyNDMzIDFaTTQuMzMxOTEgNkgxMi4zMzJWM0g0LjMzMTk3TDQuMzMxOTEgNlpNNS4zMzIwOSAxMC41QzUuODg0MzggMTAuNSA2LjMzMjA5IDEwLjA1MjMgNi4zMzIwOSA5LjVDNi4zMzIwOSA4Ljk0NzcyIDUuODg0MzggOC41IDUuMzMyMDkgOC41QzQuNzc5ODEgOC41IDQuMzMyMDkgOC45NDc3MiA0LjMzMjA5IDkuNUM0LjMzMjA5IDEwLjA1MjMgNC43Nzk4MSAxMC41IDUuMzMyMDkgMTAuNVpNMTIuMzMyMSA5LjVDMTIuMzMyMSAxMC4wNTIzIDExLjg4NDQgMTAuNSAxMS4zMzIxIDEwLjVDMTAuNzc5OCAxMC41IDEwLjMzMjEgMTAuMDUyMyAxMC4zMzIxIDkuNUMxMC4zMzIxIDguOTQ3NzIgMTAuNzc5OCA4LjUgMTEuMzMyMSA4LjVDMTEuODg0NCA4LjUgMTIuMzMyMSA4Ljk0NzcyIDEyLjMzMjEgOS41WiIgZmlsbD0iIzcwN0E5NSIvPgo8L3N2Zz4K);
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-types__type_pedestrian {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNyAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS4wODQ1IDIuNzVDMTEuMDg0NSAzLjcxNjUgMTAuMzAxIDQuNSA5LjMzNDU1IDQuNUM5LjEzNzUxIDQuNSA4Ljk0ODA3IDQuNDY3NDQgOC43NzEzMyA0LjQwNzM5TDkuMTc5NDEgNC42NTIyNEwxMS41MjEgNi4wNTcxN0wxMy4yNzk4IDUuMTc3NzZMMTQuMTc0MiA2Ljk2NjYxTDExLjkyNDQgOC4wOTE1MkwxMS40MzM0IDguMzM3MDJMMTAuOTYyNyA4LjA1NDU5TDkuMzA1ODkgNy4wNjA1MUw3LjM4NTI4IDE0Ljc1MTRMNS40NDQ4NyAxNC4yNjY5TDcuMDU4NDIgNy44MDU1Mkw3LjgyMjA2IDQuODM0MDNMOC4xNzkyNyA0LjYzNTU4TDguNjYzMzMgNC4zNjY2NUM4LjAyOTkzIDQuMTAzMzggNy41ODQ1NSAzLjQ3ODcgNy41ODQ1NSAyLjc1QzcuNTg0NTUgMS43ODM1IDguMzY4MDUgMSA5LjMzNDU1IDFDMTAuMzAxIDEgMTEuMDg0NSAxLjc4MzUgMTEuMDg0NSAyLjc1Wk02LjU5MjE2IDUuNTE3MzFMMy4xMTcxOSA3LjQ0Nzg0TDQuMDg4NDcgOS4xOTYxNkw1LjkwNjI4IDguMTg2MjdMNi41OTIxNiA1LjUxNzMxWk05LjEyMzQ2IDExLjYyMDdMOS4wOTA1OSAxMS41NzNMOS43NjExNSA5LjAyMDU2TDEwLjgyNjMgMTAuNTY3MUwxMC44ODE5IDEwLjY0NzlMMTAuOTIwOCAxMC43Mzc5TDEyLjM3NzggMTQuMTEyN0wxMC41NDE2IDE0LjkwNTRMOS4xMjM0NiAxMS42MjA3WiIgZmlsbD0iIzczN0E4RSIvPgo8L3N2Zz4K);
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-types__type_selected {
+    background-color: #f3f6ff;
+    border-radius: 2px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel__input {
+    margin-left: calc(24px + 8px);
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel__input_from {
+    margin-bottom: 16px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input {
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px #ced1d7;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input:hover {
+    box-shadow: 0 0 0 1px #152242;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input.ymaps-2-1-79-route-panel-input_disabled {
+    box-shadow: none;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input input {
+    font-size: 14px;
+    border-left-width: 8px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input.ymaps-2-1-79-route-panel-input_focused {
+    box-shadow: 0 0 0 2px rgba(4, 104, 255, 1);
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_first,
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_last {
+    left: calc(-24px - 8px);
+    top: calc(50% - 24px / 2);
+    width: 24px;
+    height: 24px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_first svg,
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_last svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_first svg circle,
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_last svg circle {
+    r: 12px;
+    cx: 12px;
+    cy: 12px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_first svg circle {
+    fill: #ff1f34;
+    color: #ff1f34;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_last svg circle {
+    fill: #0468ff;
+    color: #0468ff;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_first svg text,
+  .ya-custom-route-control .ymaps-2-1-79-route-panel-input__icon_last svg text {
+    font-size: 14px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel__clear-row {
+    margin: 12px 0 6px;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel__clear {
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 20px;
+    color: #0468ff;
+  }
+
+  .ya-custom-route-control .ymaps-2-1-79-route-panel__clear:hover {
+    color: #0661ec;
+  }
+
+  
+  .ya-custom-route-control_sticky-left .ymaps-2-1-79-control-popup__content {
+    background: white;
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: #e8e9eC;
+    border-radius: 0 0 4px 0;
+    box-shadow: none;
+  }
+
+  .ya-custom-route-control_sticky-left .ymaps-2-1-79-popup {
+    padding: 0;
+  }
+
+
+  
+  .ya-custom-route-control_sticky-bottom .ymaps-2-1-79-popup {
+    padding: 0;
+    max-width: 100% !important;
+  }
+
+  .ya-custom-route-control_sticky-bottom .ymaps-2-1-79-control-popup__content {
+    padding-bottom: 36px;
+  }
+
+ 
+  .ymaps-2-1-79-search__suggest {
+    top: auto !important;
+    bottom: 30px;
+  }

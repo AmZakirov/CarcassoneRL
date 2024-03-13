@@ -69,10 +69,10 @@ class PlaceTile:
         possible_orientations = []
         for rotate_num in range(4):
             
-            edges = self.__rotate_tile(self.tile, rotate_num)
+            edges, fields = self.__rotate_tile(self.tile, rotate_num)
             
             if self.__check_fit(edges, neighbours, neighbour_edges) == True:
-                possible_orientations.append([edges, rotate_num, place_ind, direction, opposite_direction])
+                possible_orientations.append([edges, fields, rotate_num, place_ind, direction, opposite_direction])
                 
         return possible_orientations
             
@@ -81,20 +81,24 @@ class PlaceTile:
     def __rotate_tile(tile, rotate_num):
         
         edges = copy.deepcopy(tile['edges'])
+        fields = copy.deepcopy(tile['fields_sides'])
         
         if rotate_num == 0:
-            return edges
+            return edges, fields
                 
         if rotate_num == 1:
             edge_dict = {'left': edges['down'], 'up': edges['left'], 'right': edges['up'], 'down': edges['right']}
+            field_dict = {'left': fields['down'], 'up': fields['left'], 'right': fields['up'], 'down': fields['right']}
 
         if rotate_num == 2:
             edge_dict = {'left': edges['right'], 'up': edges['down'], 'right': edges['left'], 'down': edges['up']}
-
+            field_dict = {'left': fields['right'], 'up': fields['down'], 'right': fields['left'], 'down': fields['up']}
+        
         if rotate_num == 3:
             edge_dict = {'left': edges['up'], 'up': edges['right'], 'right': edges['down'], 'down': edges['left']}
-        
-        return edge_dict
+            field_dict = {'left': fields['up'], 'up': fields['right'], 'right': fields['down'], 'down': fields['left']}
+
+        return edge_dict, field_dict
         
     
     def __check_fit(self, edges, neighbours, neighbour_edges):
@@ -118,9 +122,10 @@ class PlaceTile:
         return False
     
     @staticmethod
-    def change_tile(tile, new_edges, rotations, coords, direction, opposite_direction):
+    def change_tile(tile, new_edges, new_fields, rotations, coords, direction, opposite_direction):
         tile = copy.deepcopy(tile)
         tile['edges'] = new_edges
+        tile['fields_sides'] = new_fields
         tile['rotated'] = rotations
         tile['coord'] = coords
         tile['direction'] = direction
